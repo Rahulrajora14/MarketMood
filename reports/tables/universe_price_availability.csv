@@ -1,0 +1,39 @@
+ticker,available,first,last,reason
+KO,True,2011-01-03,2024-01-09,ok
+QCOM,True,2011-01-03,2024-01-09,ok
+EBAY,True,2011-01-03,2024-01-09,ok
+MRK,True,2011-01-03,2024-01-09,ok
+GILD,True,2011-01-03,2024-01-09,ok
+AIG,True,2011-01-03,2024-01-09,ok
+HPQ,True,2011-01-03,2024-01-09,ok
+CMCSA,True,2011-01-03,2024-01-09,ok
+CAT,True,2011-01-03,2024-01-09,ok
+ORCL,True,2011-01-03,2024-01-09,ok
+GE,True,2011-01-03,2024-01-09,ok
+BIIB,True,2011-01-03,2024-01-09,ok
+TWC,False,,,no Yahoo history (delisted or renamed)
+COP,True,2011-01-03,2024-01-09,ok
+FSLR,True,2011-01-03,2024-01-09,ok
+KR,True,2011-01-03,2024-01-09,ok
+BRCM,False,,,no Yahoo history (delisted or renamed)
+AMT,True,2011-01-03,2024-01-09,ok
+DUK,True,2011-01-03,2024-01-09,ok
+TJX,True,2011-01-03,2024-01-09,ok
+WFM,False,,,no Yahoo history (delisted or renamed)
+PEP,True,2011-01-03,2024-01-09,ok
+BAX,True,2011-01-03,2024-01-09,ok
+NOC,True,2011-01-03,2024-01-09,ok
+EA,False,,,no Yahoo history (delisted or renamed)
+DTV,False,,,no Yahoo history (delisted or renamed)
+DOW,False,2019-03-20,2024-01-09,history does not span the sample
+DFS,False,,,no Yahoo history (delisted or renamed)
+GME,True,2011-01-03,2024-01-09,ok
+MYL,False,,,no Yahoo history (delisted or renamed)
+DHR,True,2011-01-03,2024-01-09,ok
+CI,True,2011-01-03,2024-01-09,ok
+BLK,True,2011-01-03,2024-01-09,ok
+MU,True,2011-01-03,2024-01-09,ok
+TRV,True,2011-01-03,2024-01-09,ok
+BSX,True,2011-01-03,2024-01-09,ok
+NOV,True,2011-01-03,2024-01-09,ok
+V,True,2011-01-03,2024-01-09,ok

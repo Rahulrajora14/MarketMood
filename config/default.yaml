@@ -1,0 +1,82 @@
+# MarketMood run configuration.
+# Everything that changes a reported number lives here, not in code.
+
+run_name: default
+seed: 42
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  reports: reports
+
+study:
+  start: "2012-01-01"
+  end: "2023-12-31"
+  timezone: America/New_York
+  exchange: XNYS
+
+# Frozen universe. Chosen once from FNSPID coverage measured over the full
+# sample (see reports/data_inspection.md) and never changed afterwards.
+universe:
+  tickers: [AIG, AMT, BAX, BIIB, BLK, BSX, CAT, CI, CMCSA, COP, DHR, DUK, EBAY, FSLR, GE, GILD, GME, HPQ, KO, KR, MRK, MU, NOC, NOV, ORCL, PEP, QCOM, TJX, TRV, V]  # filled by `python -m marketmood universe`
+  candidates_top_n: 30 # how many of the best-covered candidates to keep
+  min_news_days_share: 0.15
+
+data:
+  fnspid_repo: Zihan1004/FNSPID
+  fnspid_news_files:
+    - Stock_news/All_external.csv
+    - Stock_news/nasdaq_exteral_data.csv
+  epu_fred_series: USEPUINDXD
+  reddit:
+    enabled: true
+    max_pages: 15
+    min_coverage: 0.10   # share of firm-days with a post needed to use Reddit as a feature set
+    subreddits: [stocks, investing, StockMarket, wallstreetbets]
+
+sentiment:
+  finbert_model: ProsusAI/finbert
+  batch_size: 64
+  max_length: 48
+  text_field: title      # headline; lead paragraph is appended when present
+  use_lead_paragraph: false   # bodies exist only for the Nasdaq subset; score headlines uniformly
+  quantize: false            # int8 changed scores too much in testing, so keep fp32
+
+features:
+  return_lags: [1, 2, 3, 5, 10, 20]
+  har_windows: {daily: 1, weekly: 5, monthly: 22}
+  turnover_window: 20
+  sentiment_smoothing_days: 3
+
+targets:
+  direction_horizon: 1   # sign of next-day close-to-close log return
+  vol_horizon: 5         # realized volatility over the next 5 sessions
+
+validation:
+  first_test_year: 2016  # 2012-2015 is the first training window
+  last_test_year: 2023
+  embargo_days: 5        # >= vol_horizon so targets never overlap
+  inner_val_share: 0.2   # tail of each training window used for tuning
+
+models:
+  tuning_budget: 8       # identical number of configurations per feature set
+  logistic:
+    C: [0.001, 0.01, 0.1, 1.0]
+  lightgbm:
+    n_estimators: [200, 400]
+    learning_rate: [0.02, 0.05]
+    num_leaves: [15, 31]
+    min_child_samples: [200]
+    subsample: [0.8]
+    colsample_bytree: [0.8]
+
+evaluation:
+  bootstrap_reps: 1000
+  bootstrap_block: 20
+  epu_terciles: true
+
+backtest:
+  cost_bps: 5            # per unit of one-way turnover
+  lag_days: 1
+  quantile: 0.2

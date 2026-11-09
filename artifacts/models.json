@@ -1,0 +1,50 @@
+{
+  "lightgbm:price|clf": {
+    "file": "clf_lightgbm_price.joblib",
+    "params": {
+      "n_estimators": 200,
+      "learning_rate": 0.02,
+      "num_leaves": 15,
+      "min_child_samples": 200,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "trained_through": "2023-12-29"
+  },
+  "lightgbm:finbert|clf": {
+    "file": "clf_lightgbm_finbert.joblib",
+    "params": {
+      "n_estimators": 200,
+      "learning_rate": 0.02,
+      "num_leaves": 15,
+      "min_child_samples": 200,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "trained_through": "2023-12-29"
+  },
+  "lightgbm:price|reg": {
+    "file": "reg_lightgbm_price.joblib",
+    "params": {
+      "n_estimators": 200,
+      "learning_rate": 0.02,
+      "num_leaves": 31,
+      "min_child_samples": 200,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "trained_through": "2023-12-29"
+  },
+  "lightgbm:finbert|reg": {
+    "file": "reg_lightgbm_finbert.joblib",
+    "params": {
+      "n_estimators": 400,
+      "learning_rate": 0.02,
+      "num_leaves": 15,
+      "min_child_samples": 200,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "trained_through": "2023-12-29"
+  }
+}

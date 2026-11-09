@@ -1,0 +1,73 @@
+fold,model,params
+2016,last_vol:price,{}
+2016,har_ols:price,{}
+2016,har_ols:attention,{}
+2016,har_ols:lm,{}
+2016,har_ols:finbert,{}
+2016,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2016,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2016,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2016,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,last_vol:price,{}
+2017,har_ols:price,{}
+2017,har_ols:attention,{}
+2017,har_ols:lm,{}
+2017,har_ols:finbert,{}
+2017,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,last_vol:price,{}
+2018,har_ols:price,{}
+2018,har_ols:attention,{}
+2018,har_ols:lm,{}
+2018,har_ols:finbert,{}
+2018,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,last_vol:price,{}
+2019,har_ols:price,{}
+2019,har_ols:attention,{}
+2019,har_ols:lm,{}
+2019,har_ols:finbert,{}
+2019,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,last_vol:price,{}
+2020,har_ols:price,{}
+2020,har_ols:attention,{}
+2020,har_ols:lm,{}
+2020,har_ols:finbert,{}
+2020,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,last_vol:price,{}
+2021,har_ols:price,{}
+2021,har_ols:attention,{}
+2021,har_ols:lm,{}
+2021,har_ols:finbert,{}
+2021,lightgbm:price,"{""n_estimators"": 400, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,lightgbm:lm,"{""n_estimators"": 400, ""learning_rate"": 0.05, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,last_vol:price,{}
+2022,har_ols:price,{}
+2022,har_ols:attention,{}
+2022,har_ols:lm,{}
+2022,har_ols:finbert,{}
+2022,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,lightgbm:lm,"{""n_estimators"": 400, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,lightgbm:finbert,"{""n_estimators"": 400, ""learning_rate"": 0.05, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,last_vol:price,{}
+2023,har_ols:price,{}
+2023,har_ols:attention,{}
+2023,har_ols:lm,{}
+2023,har_ols:finbert,{}
+2023,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,lightgbm:attention,"{""n_estimators"": 400, ""learning_rate"": 0.02, ""num_leaves"": 31, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,lightgbm:lm,"{""n_estimators"": 400, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,lightgbm:finbert,"{""n_estimators"": 400, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"

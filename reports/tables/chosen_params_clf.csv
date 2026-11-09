@@ -1,0 +1,81 @@
+fold,model,params
+2016,majority:price,{}
+2016,persistence:price,{}
+2016,logistic:price,"{""C"": 0.001}"
+2016,logistic:attention,"{""C"": 0.001}"
+2016,logistic:lm,"{""C"": 0.001}"
+2016,logistic:finbert,"{""C"": 0.001}"
+2016,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2016,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2016,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2016,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,majority:price,{}
+2017,persistence:price,{}
+2017,logistic:price,"{""C"": 0.001}"
+2017,logistic:attention,"{""C"": 0.001}"
+2017,logistic:lm,"{""C"": 0.001}"
+2017,logistic:finbert,"{""C"": 0.001}"
+2017,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2017,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,majority:price,{}
+2018,persistence:price,{}
+2018,logistic:price,"{""C"": 0.001}"
+2018,logistic:attention,"{""C"": 0.001}"
+2018,logistic:lm,"{""C"": 0.001}"
+2018,logistic:finbert,"{""C"": 0.001}"
+2018,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2018,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,majority:price,{}
+2019,persistence:price,{}
+2019,logistic:price,"{""C"": 0.001}"
+2019,logistic:attention,"{""C"": 0.001}"
+2019,logistic:lm,"{""C"": 0.001}"
+2019,logistic:finbert,"{""C"": 0.001}"
+2019,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2019,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,majority:price,{}
+2020,persistence:price,{}
+2020,logistic:price,"{""C"": 0.001}"
+2020,logistic:attention,"{""C"": 0.001}"
+2020,logistic:lm,"{""C"": 0.001}"
+2020,logistic:finbert,"{""C"": 0.001}"
+2020,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2020,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,majority:price,{}
+2021,persistence:price,{}
+2021,logistic:price,"{""C"": 0.001}"
+2021,logistic:attention,"{""C"": 0.001}"
+2021,logistic:lm,"{""C"": 0.001}"
+2021,logistic:finbert,"{""C"": 0.001}"
+2021,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2021,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,majority:price,{}
+2022,persistence:price,{}
+2022,logistic:price,"{""C"": 0.001}"
+2022,logistic:attention,"{""C"": 0.001}"
+2022,logistic:lm,"{""C"": 0.001}"
+2022,logistic:finbert,"{""C"": 0.001}"
+2022,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2022,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,majority:price,{}
+2023,persistence:price,{}
+2023,logistic:price,"{""C"": 0.001}"
+2023,logistic:attention,"{""C"": 0.001}"
+2023,logistic:lm,"{""C"": 0.001}"
+2023,logistic:finbert,"{""C"": 0.001}"
+2023,lightgbm:price,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,lightgbm:attention,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,lightgbm:lm,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"
+2023,lightgbm:finbert,"{""n_estimators"": 200, ""learning_rate"": 0.02, ""num_leaves"": 15, ""min_child_samples"": 200, ""subsample"": 0.8, ""colsample_bytree"": 0.8}"

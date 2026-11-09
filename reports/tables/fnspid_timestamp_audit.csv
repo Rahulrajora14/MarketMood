@@ -1,0 +1,5 @@
+story,n,stated_hour_median,ny_hour_if_utc_median,expected_ny_window,share_inside_window_if_utc,share_inside_window_if_stated_is_ny_minus_4h,share_date_only
+Pre-Market Session,50,3.6,23.55,4.0-9.5,0.0,0.94,
+52-Week Highs,90,6.75,2.725,9.5-16.0,0.0,1.0,
+52-Week Lows,21,6.816666666666666,2.783333333333333,9.5-16.0,0.0,1.0,
+all rows,1273456,,,,,,0.9964576710934654
